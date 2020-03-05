@@ -8,8 +8,8 @@
   "scripts": {
     "api-tests-production": "newman run tests/Jsonplaceholder.com.postman_collection.json --reporters 'cli,junit' --reporter-junit-export newman.xml"
   },
-  "author": "Valentin Despa",
-  "dependencies": {
-    "newman": "^3.5.2"
-  }
+  "author": "Valentin Despa"//,
+  //"dependencies": {
+    //"newman": "^3.5.2"
+  //}
 }
