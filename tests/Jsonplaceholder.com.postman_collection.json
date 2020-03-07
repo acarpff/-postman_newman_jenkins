@@ -15,7 +15,7 @@
 					"script": {
 						"type": "text/javascript",
 						"exec": [
-							"tests[\"Status code is 200\"] = responseCode.code === 2000;",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
 							"tests[\"Body matches string\"] = responseBody.has(\"qui est esse\");"
 						]
 					}
@@ -38,8 +38,8 @@
 					"script": {
 						"type": "text/javascript",
 						"exec": [
-							"tests[\"Status code is 200\"] = responseCode.code === 2000;",
-							"tests[\"Response time is less than 200ms\"] = responseTime < 200;"
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"tests[\"Response time is less than 800ms\"] = responseTime < 800;"
 						]
 					}
 				}
