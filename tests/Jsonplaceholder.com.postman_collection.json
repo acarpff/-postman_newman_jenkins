@@ -46,7 +46,7 @@
 			],
 			"request": {
 				"url": "https://jsonplaceholder.typicode.com/posts/1",
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"body": {},
 				"description": ""
